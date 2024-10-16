@@ -449,7 +449,7 @@ h2 {
   flex-direction: row;
   /* justify-content: space-around; */
   flex-wrap: wrap;
-  max-height: 50px;
+  /* max-height: 50px; */
 }
 
 .badge {
@@ -641,6 +641,10 @@ footer > p > a {
 @media only screen and (max-width: 450px) {
   .name h1 {
     font-size: 24px;
+  }
+
+  h2 {
+    font-size: 30px;
   }
 
   .name h3 {
