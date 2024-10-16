@@ -1,0 +1,101 @@
+{
+    "experiences": [
+        {
+            "id": 1,
+            "title" : "PHP Developer",
+            "date": "May – July 2014",
+            "location": "Ufolep, Lyon France - Internship",
+            "roles":[
+                {
+                    "descriptions": [
+                        "Setting up the structure of the database, managing data via the application",
+                        "User rights management"
+                    ]
+                }
+            ],
+
+            "skills":["HTML", "CSS", "PHP", "SQL", "MySQL"]
+        },
+        {
+            "id": 2,
+            "title" : "Web Developer",
+            "date": "January – February 2015",
+            "location": "Lorge Imprimeur, Vénissieux France - Internship",
+            "roles":[
+                {
+                    "descriptions": [
+                        "Development of a contact management application in \"Web 2.0\": use AJAX methods"
+                    ]
+                }
+            ],
+            "skills":["HTML", "CSS", "JavaScript", "JQuery", "AJAX", "Linux", "Raspberry", "Git"]
+        },
+        {
+            "id": 3,
+            "title" : "ASP.NET Developer",
+            "date": "June 2015 – July 2015",
+            "location": "Alter Systems, Lyon France - Internship",
+            "roles":[
+                {
+                    "descriptions": [
+                        "Analysis of the project in MVC architecture",
+                        "Writing of an algorithm that reads the structure of word files in order to retrieve the structure of the table of contents",
+                        "Management of the summary of the selected word file (front display + selection checkbox)"
+                    ]
+                }
+            ],
+            "skills":["HTML", "CSS", "C#", ".NET", "ASP.NET", "JavaScript", "JQuery", "MVC"]
+        },
+        {
+            "id": 4,
+            "title" : "ASP.NET Developer and Product Owner",
+            "date": "September 2016 – February 2018",
+            "location": "Acta Assistance, Limonest France - Cooperative Training Course",
+            "roles": [
+                {
+                    "role": "Project owner (6 month)",
+                    "descriptions": [
+                        "Writing documentation: application use cases",
+                        "Testing applications within the project management team: writing test procedures, bug reports"
+                    ]
+                },
+                {
+                    "role": "Development department (1 year)",
+                    "descriptions": [
+                        "Development of management web applications for the company's internal services"
+                    ]
+                }
+            ],
+            "skills":["HTML", "Telerik", "VB.NET", ".NET", "ASP.NET", "SQL", "JavaScript", "MVC"]
+        },
+        {
+            "id": 5,
+            "title" : "PHP Symfony Developer",
+            "date": "October 2019 – November 2019",
+            "location": "Kubiweb, Dardilly France - Internship",
+            "roles": [
+                {
+                    "descriptions": [
+                        "Analysis of the initial code, and implementation of the architecture (Merise and UML)"
+                    ]
+                }
+            ],
+
+            "skills":["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "Symfony", "SQL", "MySQL", "MVC", "Git"]
+        },
+        {
+            "id": 6,
+            "title" : "PHP Developer",
+            "date": "February 2024 – Now",
+            "location": "JD Solutions, Tel Aviv",
+            "roles": [
+                {
+                    "descriptions": [
+                        "Development and maintenance of many CRM"
+                    ]
+                }
+            ],
+            "skills":["HTML", "CSS", "Bootstrap", "JQuery", "PHP", "SQL", "MySQL", "React"]
+        }
+    ]
+}

@@ -5,7 +5,7 @@ import cv from "../assets/images/links/cv.png";
 const Links = (props) => {
   return (
     <>
-      <div class="links">
+      <div className="links">
         <div>
           <p>Network</p>
           <a href="https://github.com/Rodgiva" target="_blank">

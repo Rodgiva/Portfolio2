@@ -25,8 +25,12 @@ body {
 
 /* ***EXPERIENCE*** */
 
-.experience > ul > li {
+.xp-details > ul > li {
   list-style: none;
+}
+
+.roles > li {
+  list-style: disc;
 }
 
 .presentation {
@@ -449,6 +453,7 @@ h2 {
   list-style: disc;
   font-size: 14px;
   padding: 2px 0;
+  list-style: none;
 }
 
 .xp-details > p {
@@ -646,6 +651,7 @@ footer > p > a {
 
   .xp-details > ul > li {
     font-size: 8px;
+    list-style: none;
   }
 }
 
@@ -690,6 +696,14 @@ footer > p > a {
     transition: transform 1s ease, opacity 1s ease;
   }
 
+  /* div:has(.xp-content) {
+    width: 100%;
+  } */
+
+  /* .triangle + div {
+    width: 100%;
+  } */
+
   .xp-content > h3 {
     font-size: 10px;
   }
@@ -704,6 +718,7 @@ footer > p > a {
 
   .xp-details > ul > li {
     font-size: 8px;
+    list-style: none;
   }
 
   /* .links {
