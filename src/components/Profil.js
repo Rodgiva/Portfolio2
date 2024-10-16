@@ -9,7 +9,10 @@ const Profil = (props) => {
   return (
     <>
       <div className="presentation">
-        <Parallax speed={20}>
+        <Parallax
+        speed={20}
+        easing={"easeIn"}
+        >
           <img src={me} className="img" />
         </Parallax>
         <div className="name">

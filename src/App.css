@@ -39,8 +39,9 @@ body {
 .img {
   width: 300px;
   border-radius: 300px;
-  margin: auto;
+  margin: auto 0px;
   box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+  /* transform: translateY(100px); */
 }
 
 .name {
@@ -214,12 +215,22 @@ progress::-webkit-progress-value {
 
 .fade-in {
   opacity: 1;
-  transform: translateY(0); /* Remet en position normale */
+  transform: translateY(0);
 }
 
 .fade-out {
   opacity: 0;
-  transform: translateY(100px); /* Reflète l'état caché */
+  transform: translateY(100px);
+}
+
+.slide-center {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-left {
+  opacity: 1;
+  transform: translateX(-1000px);
 }
 
 .contact {
@@ -389,6 +400,8 @@ h2 {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  transition: transform 1s ease, opacity 1s ease;
+  /* transform: translateX(-1000px); */
 }
 
 .xp-content h3 {
@@ -447,9 +460,7 @@ h2 {
 .skills-used {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around; */
   flex-wrap: wrap;
-  /* max-height: 50px; */
 }
 
 .badge {
