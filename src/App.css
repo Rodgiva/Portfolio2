@@ -649,6 +649,10 @@ footer > p > a {
     font-size: 12px;
   }
 
+  h6 {
+    font-size: 12px;
+  }
+
   .xp-details > ul > li {
     font-size: 8px;
     list-style: none;
@@ -713,6 +717,10 @@ footer > p > a {
   }
 
   .xp-details > h6 {
+    font-size: 10px;
+  }
+
+  h6 {
     font-size: 10px;
   }
 
