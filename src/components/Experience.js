@@ -38,7 +38,7 @@ const Experience = (props) => {
             <ul>
               {props.roles.map((item, i) => (
                 <li key={i}>
-                  {item.role !== undefined && <h6>{item.role}</h6>}
+                  {item.role !== undefined && <h6 className="h6">{item.role}</h6>}
                   <ul className="roles">
                     {item.descriptions.map((description, index) => (
                       <li key={index}>{description}</li>
