@@ -12,13 +12,13 @@ const Experiences = (props) => {
 
   return (
     <>
-      <div class="experience scroll">
+      <div className="experience scroll">
         <h2>My experiences</h2>
         <ul>
-          <li class="xp">
-            <div class="triangle"></div>
-            <div class="xp-content">
-              <div class="xp-details">
+          <li className="xp">
+            <div className="triangle"></div>
+            <div className="xp-content">
+              <div className="xp-details">
                 <h3>May – July 2014</h3>
                 <br />
                 <h5>PHP Developer</h5>
@@ -33,19 +33,19 @@ const Experiences = (props) => {
                 </ul>
                 <br />
               </div>
-              <div class="skills-used">
-                <div class="badge">HTML</div>
-                <div class="badge">CSS</div>
-                <div class="badge">PHP</div>
-                <div class="badge">SQL</div>
-                <div class="badge">MySQL</div>
+              <div className="skills-used">
+                <div className="badge">HTML</div>
+                <div className="badge">CSS</div>
+                <div className="badge">PHP</div>
+                <div className="badge">SQL</div>
+                <div className="badge">MySQL</div>
               </div>
             </div>
           </li>
-          <li class="xp">
-            <div class="triangle"></div>
-            <div class="xp-content">
-              <div class="xp-details">
+          <li className="xp">
+            <div className="triangle"></div>
+            <div className="xp-content">
+              <div className="xp-details">
                 <h3>January – February 2015</h3>
                 <br />
                 <h5>Web Developer</h5>
@@ -57,22 +57,22 @@ const Experiences = (props) => {
                 </p>
                 <br />
               </div>
-              <div class="skills-used">
-                <div class="badge">HTML</div>
-                <div class="badge">CSS</div>
-                <div class="badge">JavaScript</div>
-                <div class="badge">JQuery</div>
-                <div class="badge">AJAX</div>
-                <div class="badge">Linux</div>
-                <div class="badge">Raspberry</div>
-                <div class="badge">Git</div>
+              <div className="skills-used">
+                <div className="badge">HTML</div>
+                <div className="badge">CSS</div>
+                <div className="badge">JavaScript</div>
+                <div className="badge">JQuery</div>
+                <div className="badge">AJAX</div>
+                <div className="badge">Linux</div>
+                <div className="badge">Raspberry</div>
+                <div className="badge">Git</div>
               </div>
             </div>
           </li>
-          <li class="xp">
-            <div class="triangle"></div>
-            <div class="xp-content">
-              <div class="xp-details">
+          <li className="xp">
+            <div className="triangle"></div>
+            <div className="xp-content">
+              <div className="xp-details">
                 <h3>June 2015 – July 2015</h3>
                 <br />
                 <h5>ASP.NET Developer</h5>
@@ -92,22 +92,22 @@ const Experiences = (props) => {
                 </ul>
                 <br />
               </div>
-              <div class="skills-used">
-                <div class="badge">HTML</div>
-                <div class="badge">CSS</div>
-                <div class="badge">C#</div>
-                <div class="badge">.NET</div>
-                <div class="badge">ASP.NET</div>
-                <div class="badge">JavaScript</div>
-                <div class="badge">JQuery</div>
-                <div class="badge">MVC</div>
+              <div className="skills-used">
+                <div className="badge">HTML</div>
+                <div className="badge">CSS</div>
+                <div className="badge">C#</div>
+                <div className="badge">.NET</div>
+                <div className="badge">ASP.NET</div>
+                <div className="badge">JavaScript</div>
+                <div className="badge">JQuery</div>
+                <div className="badge">MVC</div>
               </div>
             </div>
           </li>
-          <li class="xp">
-            <div class="triangle"></div>
-            <div class="xp-content">
-              <div class="xp-details">
+          <li className="xp">
+            <div className="triangle"></div>
+            <div className="xp-content">
+              <div className="xp-details">
                 <h3>September 2016 – February 2018</h3>
                 <br />
                 <h5>ASP.NET Developer and Product Owner</h5>
@@ -133,22 +133,22 @@ const Experiences = (props) => {
                 </ul>
                 <br />
               </div>
-              <div class="skills-used">
-                <div class="badge">HTML</div>
-                <div class="badge">Telerik</div>
-                <div class="badge">VB.NET</div>
-                <div class="badge">.NET</div>
-                <div class="badge">ASP.NET</div>
-                <div class="badge">SQL</div>
-                <div class="badge">JavaScript</div>
-                <div class="badge">MVC</div>
+              <div className="skills-used">
+                <div className="badge">HTML</div>
+                <div className="badge">Telerik</div>
+                <div className="badge">VB.NET</div>
+                <div className="badge">.NET</div>
+                <div className="badge">ASP.NET</div>
+                <div className="badge">SQL</div>
+                <div className="badge">JavaScript</div>
+                <div className="badge">MVC</div>
               </div>
             </div>
           </li>
-          <li class="xp">
-            <div class="triangle"></div>
-            <div class="xp-content">
-              <div class="xp-details">
+          <li className="xp">
+            <div className="triangle"></div>
+            <div className="xp-content">
+              <div className="xp-details">
                 <h3>October 2019 – November 2019</h3>
                 <br />
                 <h5>PHP Symfony Developer</h5>
@@ -162,25 +162,25 @@ const Experiences = (props) => {
                 </ul>
                 <br />
               </div>
-              <div class="skills-used">
-                <div class="badge">HTML</div>
-                <div class="badge">CSS</div>
-                <div class="badge">Bootstrap</div>
-                <div class="badge">JavaScript</div>
-                <div class="badge">PHP</div>
-                <div class="badge">Symfony</div>
-                <div class="badge">SQL</div>
-                <div class="badge">MySQL</div>
-                <div class="badge">MVC</div>
-                <div class="badge">Git</div>
+              <div className="skills-used">
+                <div className="badge">HTML</div>
+                <div className="badge">CSS</div>
+                <div className="badge">Bootstrap</div>
+                <div className="badge">JavaScript</div>
+                <div className="badge">PHP</div>
+                <div className="badge">Symfony</div>
+                <div className="badge">SQL</div>
+                <div className="badge">MySQL</div>
+                <div className="badge">MVC</div>
+                <div className="badge">Git</div>
               </div>
             </div>
           </li>
 
-          <li class="xp">
-            <div class="triangle"></div>
-            <div class="xp-content">
-              <div class="xp-details">
+          <li className="xp">
+            <div className="triangle"></div>
+            <div className="xp-content">
+              <div className="xp-details">
                 <h3>February 2024 – Now</h3>
                 <br />
                 <h5>PHP Developer</h5>
@@ -191,14 +191,14 @@ const Experiences = (props) => {
                 </ul>
                 <br />
               </div>
-              <div class="skills-used">
-                <div class="badge">HTML</div>
-                <div class="badge">CSS</div>
-                <div class="badge">Bootstrap</div>
-                <div class="badge">JQuery</div>
-                <div class="badge">PHP</div>
-                <div class="badge">MySQL</div>
-                <div class="badge">React</div>
+              <div className="skills-used">
+                <div className="badge">HTML</div>
+                <div className="badge">CSS</div>
+                <div className="badge">Bootstrap</div>
+                <div className="badge">JQuery</div>
+                <div className="badge">PHP</div>
+                <div className="badge">MySQL</div>
+                <div className="badge">React</div>
               </div>
             </div>
           </li>

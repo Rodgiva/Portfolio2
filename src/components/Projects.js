@@ -5,9 +5,9 @@ import wrg from "../assets/images/projects/wolf-rabbit-grass_logo.png";
 const Projects = (props) => {
   return (
     <>
-      <div class="projects">
+      <div className="projects">
         <h2>Projects</h2>
-        <div class="projects-container">
+        <div className="projects-container">
           <div>
             <a href="https://fightingsnakes.onrender.com">
               {/* <img src="./assets/images/projects/snake_logo.png" alt=""> */}
