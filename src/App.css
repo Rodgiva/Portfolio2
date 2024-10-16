@@ -679,6 +679,17 @@ footer > p > a {
     width: 85%;
   }
 
+  .xp-content {
+    border: thin solid white;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: var(--bg-blue);
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: transform 1s ease, opacity 1s ease;
+  }
+
   .xp-content > h3 {
     font-size: 10px;
   }
