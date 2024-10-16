@@ -6,15 +6,12 @@ import {
 } from "react-scroll-parallax";
 
 const Profil = (props) => {
-  //   const { ref } = useParallax({ speed: 20 });
-
   return (
     <>
       <div className="presentation">
-        <Parallax speed={10}>
+        <Parallax speed={20}>
           <img src={me} className="img" />
         </Parallax>
-        {/* <img ref={ref} src={me} className="img" /> */}
         <div className="name">
           <h1>Avigdor Partouche</h1>
           <h3>Full Stack Developer - React Nodejs</h3>

@@ -195,6 +195,10 @@ progress::-webkit-progress-value {
   flex-direction: row;
   justify-content: space-around;
   margin: 50px auto;
+
+  opacity: 0;
+  transform: translateY(20px); /* Démarre avec un léger décalage vertical */
+  transition: opacity 1s ease, transform 1s ease;
 }
 
 .logo > img {
@@ -206,6 +210,16 @@ progress::-webkit-progress-value {
   border-radius: 10px;
   /* border-radius: 50px; */
   /* box-shadow: 0px 0px 50px 2px black; */
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0); /* Remet en position normale */
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(100px); /* Reflète l'état caché */
 }
 
 .contact {

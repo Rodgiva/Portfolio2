@@ -1,4 +1,15 @@
+import { Parallax } from "react-scroll-parallax";
+import React, { useState } from "react";
+
 const Experiences = (props) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const handleEnter = () => {
+    setIsVisible(true);
+  };
+  const handleExit = () => {
+    setIsVisible(false);
+  };
+
   return (
     <>
       <div class="experience scroll">
