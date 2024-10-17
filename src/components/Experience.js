@@ -24,7 +24,7 @@ const Experience = (props) => {
       <div className="triangle"></div>
       <Parallax
         onEnter={() => handleVisibility(props.key, true)}
-        onExit={() => handleVisibility(props.key, false)}
+        // onExit={() => handleVisibility(props.key, false)}
       >
         <div
           className={`xp-content ${
