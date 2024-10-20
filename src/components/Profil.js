@@ -9,15 +9,15 @@ const Profil = (props) => {
   return (
     <>
       <div className="presentation">
-        <Parallax
-        speed={20}
-        easing={"easeIn"}
-        >
+        <Parallax speed={20} easing={"easeIn"}>
           <img src={me} className="img" />
         </Parallax>
         <div className="name">
           <h1>Avigdor Partouche</h1>
-          <h3>Full Stack Developer - React Nodejs</h3>
+          <h3>
+            Full Stack Developer -{" "}
+            <span className="highlight">React Nodejs</span>
+          </h3>
         </div>
         <div className="aboutme">
           <p>

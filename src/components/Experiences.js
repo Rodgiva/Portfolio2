@@ -1,25 +1,8 @@
-// import { Parallax } from "react-scroll-parallax";
 import React, { useEffect, useState } from "react";
 import Experience from "./Experience";
 
 const Experiences = (props) => {
   const [datas, setDatas] = useState(null);
-  // const [isVisible, setIsVisible] = useState([
-  //   false,
-  //   false,
-  //   false,
-  //   false,
-  //   false,
-  //   false,
-  // ]);
-
-  // const handleVisibility = (index, value) => {
-  //   setIsVisible((prevState) => {
-  //     const newState = [...prevState];
-  //     newState[index] = value;
-  //     return newState;
-  //   });
-  // };
 
   useEffect(() => {
     fetch("/data.json")
