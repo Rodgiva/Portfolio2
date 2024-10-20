@@ -24,7 +24,8 @@ const Profil = (props) => {
             Hi, I am a Fullstack web developer, having developed several
             projects in Javascript, PHP and Microsoft Technologies. Having
             recently completed full stack training at Developers Institute, I am
-            now ready on React/Redux and nodejs Express.
+            now ready on{" "}
+            <span className="highlight">React/Redux and nodejs Express</span>.
           </p>
         </div>
       </div>
