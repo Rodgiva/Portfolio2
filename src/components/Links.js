@@ -18,7 +18,7 @@ const Links = (props) => {
             <img src={linkedin} />
           </a>
           <a
-            href="./assets/Resume_Avigdor_PARTOUCHE.pdf"
+            href={`${process.env.PUBLIC_URL}/assets/Resume_Avigdor_PARTOUCHE.pdf`}
             download="Resume_Avigdor_PARTOUCHE.pdf"
             target="_blank"
           >
