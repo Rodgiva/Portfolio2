@@ -45,7 +45,6 @@ body {
   border-radius: 300px;
   margin: auto 0px;
   box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
-  /* transform: translateY(100px); */
 }
 
 .name {
@@ -60,28 +59,13 @@ h1 {
 
 .name h3 {
   font-size: 36px;
-  /* color: rgb(140, 140, 140); */
   color: rgb(172, 172, 172);
 }
 
 @keyframes highlight-animation {
-  0% {
-    /* color: rgb(140, 140, 140); */
-    /* text-shadow: 0 0 50px rgba(255, 255, 255, 0); */
-
-    /* font-size: 36px; */
-  }
   50% {
     color: white;
     text-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
-
-    /* font-size: 42px; */
-  }
-  100% {
-    /* color: rgb(140, 140, 140); */
-    /* text-shadow: 0 0 50px rgba(255, 255, 255, 0); */
-
-    /* font-size: 36px; */
   }
 }
 
@@ -100,12 +84,9 @@ h1 {
   width: 50%;
   margin: auto;
   color: rgb(172, 172, 172);
-
-  /* margin-bottom: 100px; */
 }
 
 .skills {
-  /* background-color: var(--bg-blue); */
   background-color: rgb(20, 20, 100);
   border-top: thin solid white;
   border-bottom: thin solid white;
