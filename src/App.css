@@ -579,10 +579,10 @@ h2 {
   padding-bottom: 50px;
 }
 
-.links-mobile h2 {
-  /* font-size: 20px; */
-  /* padding: 10px 0; */
-}
+/* .links-mobile h2 {
+  font-size: 20px;
+  padding: 10px 0;
+} */
 
 .links-mobile-container {
   display: flex;
@@ -783,5 +783,21 @@ footer > p > a {
 
   .roles {
     padding-left: 0px;
+  }
+
+  .experience > ul {
+    margin-left: -8%;
+  }
+
+  .experience > ul > li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: var(--bg-blue);
+    border: thick solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: -12.5px;
+    top: 5px;
   }
 }
