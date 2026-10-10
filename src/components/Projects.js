@@ -9,7 +9,7 @@ const Projects = (props) => {
         <h2>Projects</h2>
         <div className="projects-container">
           <div>
-            <a href="https://fightingsnakes.onrender.com">
+            <a href="https://fighting-snake-client.onrender.com/">
               <img src={snake} />
             </a>
             <h5>fightingsnakes</h5>
